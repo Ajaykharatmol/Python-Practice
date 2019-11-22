@@ -40,3 +40,16 @@ def days():
          print(num[n[i]], end=" ")
 
 #days()
+
+def fibonacci(n):
+    a = 0
+    b = 1 
+    for i in range (n):
+        f = a
+        a = b
+        b = f + b
+        print("The Fibonacci sequence is : ",a)
+        
+ fibonacci(5)
+        
+    
